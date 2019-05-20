@@ -1,5 +1,11 @@
 # React Project Template
 
+## Usage
+
+To build:
+
+1. npm run build
+
 React Project Template with automated build.
 
 ## Installation
