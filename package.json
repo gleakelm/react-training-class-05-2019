@@ -5,8 +5,10 @@
   "engines": {
     "node": "11.11.2"
   },
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "http-server src",
+    "lint": "eslint . --ext .js",
     "test": "echo \"All tests passed\" && exit 0",
     "build": "echo \"BUILD OK\" && exit 0",
     "version": "node version-check.js",
@@ -15,6 +17,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "http-server": "^0.11.1",
     "semver": "^6.0.0"
   }
 }
